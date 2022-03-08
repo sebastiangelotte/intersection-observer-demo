@@ -1,0 +1,23 @@
+#test {
+    background-color: blueviolet;
+    height: 100vh;
+}
+
+#test2 {
+    height: 100vh;
+    background-color: coral;
+}
+
+#test, #test2 {
+    font-size: 40px;
+    color: white;
+    font-family: Arial;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 1s ease;
+}
+
+.pink-background {
+    background-color: #ff0069 !important;
+}
